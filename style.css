@@ -35,3 +35,25 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+li{
+  margin: 1px;
+  border-radius: 5px;
+  height: 25px;
+}
+
+li.high {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+li.medium {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+li.low {
+  background-color: rgba(0, 128, 0, 0.5);
+}
+
+input.delete {
+  float: right;
+}
